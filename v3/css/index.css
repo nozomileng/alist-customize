@@ -207,6 +207,62 @@ div#root div.body div.obj-box span.hope-c-iojPKw svg {
   color: rgba(var(--mio-main), 1);
 }
 
+/* 移除搜索中的快捷键 */
+.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-ihYBJPK-css {
+    display: none !important;
+}
+
+/* 搜索按钮改透明毛玻璃效果-亮色 */
+.hope-ui-light .hope-c-PJLV-ikEIIxw-css{
+    background: rgba(255, 255, 255, 0.2)!important;
+    backdrop-filter: blur(10px)!important;
+}
+
+/* 搜索按钮改透明毛玻璃效果-暗色 */
+.hope-ui-dark .hope-c-PJLV-ikEIIxw-css{
+    background: rgb(0 0 0 / 10%)!important;
+    backdrop-filter: blur(10px)!important;
+}
+
+/* 搜索主体透明毛玻璃效果 - 亮色 */
+.hope-ui-light .hope-c-PJLV-iiBaxsN-css{
+   background-color: rgba(255,255,255,0.2)!important;
+   backdrop-filter: blur(10px)!important;
+}
+
+/* 搜索栏输入框透明毛玻璃效果 - 亮色 */
+.hope-ui-light .hope-c-kvTTWD-hYRNAb-variant-filled{
+   background-color: rgba(255,255,255,0.2)!important;
+   backdrop-filter: blur(10px)!important;
+}
+
+/* 搜索按钮透明毛玻璃效果 - 亮色 */
+.hope-ui-light .hope-c-PJLV-ikEIIxw-css{
+   background-color: rgba(255,255,255,0.2)!important;
+   backdrop-filter: blur(10px)!important;
+   padding: var(--hope-space-1)!important;
+}
+
+/* 搜索主体透明毛玻璃效果 - 暗色 */
+.hope-ui-dark .hope-c-PJLV-iiBaxsN-css{
+    background-color: rgb(0 0 0 / 10%)!important;
+    backdrop-filter: blur(10px)!important;
+}
+
+/* 搜索栏输入框透明毛玻璃效果 - 暗色 */
+.hope-ui-dark .hope-c-kvTTWD-hYRNAb-variant-filled{
+    background-color: rgb(0 0 0 / 10%)!important;
+    backdrop-filter: blur(10px)!important;
+}
+
+/* 搜索按钮透明毛玻璃效果 - 暗色 */
+.hope-ui-dark .hope-c-PJLV-ikEIIxw-css{
+    background-color: rgb(0 0 0 / 10%)!important;
+    backdrop-filter: blur(10px)!important;
+    padding: var(--hope-space-1)!important;
+}
+
+
 /*底部MD*/
 div#root div.body div.hope-c-PJLV-ikSuVsl-css,
 div#root div.body .hope-c-PJLV-iiuDLME-css {
