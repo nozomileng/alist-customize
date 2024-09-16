@@ -295,9 +295,9 @@ div#root div.body svg {
 }
 
 /**底部*/
-div#root div.footer {
-  display: none;
-}
+/**div#root div.footer {*/
+/**  display: none;*/
+/**}*/
 
 /**工具栏*/
 div.left-toolbar-box,
